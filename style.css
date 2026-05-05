@@ -3,10 +3,10 @@
   --color-black:      #111111;
   --color-white:      #FFFFFF;
   --color-off-white:  #FAFAFA;
+  --color-text:       #E8E8E8;
   --color-gray-dark:  #767676;
   --color-gray-mid:   #949494;
 }
-
 /* === RESET === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -46,6 +46,8 @@ header {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  max-width: 1000px;   /* was at 960px */
+  margin: 0 auto;
 }
 
 /* === TOP BAR === */
@@ -58,12 +60,12 @@ header {
 
 .logo-link { display: inline-block; border-radius: 50%; }
 .logo-link:focus { outline: 2px solid var(--color-white); outline-offset: 3px; }
-.logo { width: 56px; height: 56px; border-radius: 50%; display: block; }
+.logo { width: 160px; height: 160px; border-radius: 50%; display: block; } /* was 56px for height & width */
 
 nav { display: flex; gap: 2rem; }
 nav span {
   color: var(--color-gray-dark);
-  font-size: 0.875rem;
+  font-size: 1rem; /* was 0.875rem */
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -74,7 +76,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 640px;
+  max-width: 675px; /* was 640px */
   margin: 0 auto;
   width: 100%;
   position: relative;
@@ -83,7 +85,7 @@ nav span {
 h1 {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   color: var(--color-white);
   text-align: center;
   line-height: 1.15;
@@ -97,9 +99,9 @@ blockquote {
   border-left: 2px solid var(--color-gray-dark);
   padding-left: 1.25rem;
   font-style: italic;
-  color: var(--color-white);
-  font-size: 1rem;
-  line-height: 1.75;
+  color: var(--color-text);
+  font-size: 1.25rem;    /* was 1rem, then 1.125rem, then 1.35rem */
+  line-height: 1.85;      /* was 1.75 */
   border-radius: 0;
 }
 
@@ -114,33 +116,53 @@ cite {
 /* === SKETCH IMAGES === */
 .sketch-prd {
   position: absolute;
-  right: -120px;
-  top: -18px;
-  width: 100px;
-  height: calc(100% + 36px);
-  object-fit: cover;
+  right: -105px; /* was -120px, then -180px */
+  top: -65px; /* was -18px */
+  width: 200px;  /* was 100px, then 160px */
+  height: calc(100% + 75px); /* was calc(100% + 36px) then auto */
+  object-fit: unset; /* was cover */
+  object-position: unset; /* was top */ 
   border-radius: 2px;
 }
 
 .sketch-roadmap {
-  width: 80px;
-  margin-bottom: 1.5rem;
+  position: absolute;
+  left: -100px;   /* was -125px, then -180px */
+  top: calc(100% + 30px);
+  width: 200px;    /* was 80px, then 100px */
+  height: calc(100% + 75px);
+  object-fit: unset;
+  object-position: top;
   border-radius: 2px;
+}
+
+/* === COMPOSITIONAL OFFSETS === */
+.blockquote-left {
+  margin-right: 20%;
+}
+
+.body-right {
+  margin-left: 20%;
 }
 
 /* === BODY COPY === */
 .body-copy {
-  color: var(--color-white);
-  font-size: 0.95rem;
-  line-height: 1.75;
+  color: var(--color-text);
+  font-size: 1.15rem;  /* was 0.95rem, then 1.125rem, then 1.2rem */
+  line-height: 1.85;    /* was 1.75 */
   margin-bottom: 1.5rem;
 }
 
-.closing-a,
+.closing-a {
+  color: var(--color-text);
+  font-size: 1.15rem; /* was 0.95rem, then 1.125rem, then 1.2rem */
+  line-height: 1.85;
+  margin-bottom: 0;
+}
 .closing-b {
-  color: var(--color-white);
-  font-size: 0.95rem;
-  line-height: 1.75;
+  color: var(--color-text);
+  font-size: 1.15rem;   /* was 0.95rem, then 1.125rem, then 1.2rem */
+  line-height: 1.85;    /* was 1.75 */
 }
 
 /* === SCROLL CUE === */
