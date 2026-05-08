@@ -25,3 +25,11 @@
 - [ ] GA4 measurement ID — replace placeholder at deploy config
 - [ ] TOS / Privacy — footer placeholders — legal copy deferred
 - [ ] Wireframe v4.1 PDF — generate and add to docs/current/
+
+## Asset generation — documented decisions
+- Thumbnails generated via PyMuPDF (fitz) — one-time script — not committed to repo
+- generate_thumbnails.py deleted after use — utility scripts do not belong in portfolio repo
+- Re-generate from source PDFs if thumbnails need to be updated
+
+## Misc. design thoughts
+- [ ] Scroll chevron between zones — revisit once Zone 3 is built — assess whether affordance is needed or redundant
