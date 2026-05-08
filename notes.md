@@ -5,7 +5,8 @@
 - [ ] Blockquote font-size 1.25rem — check legibility at 375px width
 - [ ] sketch-prd and sketch-roadmap height calc() — check distortion on non-standard screens
 - [ ] Nav spans — become anchor tags at P1 — check touch target size (WCAG 2.5.5 — 44x44px min)
-- [ ] All zones — test at 375px · 768px · 1280px · 1440px
+- [x] All zones — tested at 375px · 768px — COMPLETE
+- [ ] All zones — test at 1280px · 1440px — spot check recommended
 
 ## P1 — Introduce at start of next project
 - [ ] Notion — PRD documentation
@@ -31,6 +32,7 @@
     — revisit at P1 when artifact tiles link to full document views or individual pages
 - [ ] Footer email — replace hello@thepmdev.com placeholder with live purpose-built contact address before sharing 
       site with evaluators
+- [ ] Zone 4 hidden at 480px — consider mobile-friendly alternative to iframe for Playbook at P1
 
 ## Asset generation — documented decisions
 - Thumbnails generated via PyMuPDF (fitz) — one-time script — not committed to repo

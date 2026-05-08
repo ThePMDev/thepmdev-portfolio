@@ -404,3 +404,145 @@ footer {
   font-weight: 600;
   letter-spacing: 0.02em;
 }
+
+/* === RESPONSIVE — 768px AND BELOW === */
+@media (max-width: 768px) {
+
+  /* — Zone 1 — */
+  header {
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  .sketch-prd,
+  .sketch-roadmap {
+    display: none;
+  }
+
+  .blockquote-left {
+    margin-right: 0;
+  }
+
+  .body-right {
+    margin-left: 0;
+  }
+
+  .center-composition {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .sketch-roadmap {
+    left: -60px;
+  }
+
+  .blockquote-left {
+    margin-right: 10%;
+  }
+
+  .body-right {
+    margin-left: 10%;
+  }
+
+  /* — Zone 2 — */
+  .thumbnail-row {
+    gap: 1.25rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .thumbnail-item {
+    width: 100px;
+  }
+
+  .thumbnail-item img {
+    width: 100px;
+    height: 130px;
+  }
+
+  /* — Zone 3 — */
+  .artifact-tile {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .artifact-tile img {
+    width: 100%;
+  }
+
+  /* — Zone 4 — */
+  .playbook-container iframe {
+    height: 600px;
+  }
+
+  /* — Zone 5 — */
+  footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-nav {
+    align-items: center;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+
+}
+
+/* === RESPONSIVE — 480px AND BELOW === */
+@media (max-width: 480px) {
+
+  /* — Zone 1 — sketch images hidden at mobile — */
+  .sketch-prd,
+  .sketch-roadmap {
+    display: none;
+  }
+
+  .blockquote-left {
+    margin-right: 0;
+  }
+
+  .body-right {
+    margin-left: 0;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  nav {
+    gap: 1rem;
+  }
+
+  nav span {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+
+  /* — Zone 3 — */
+  .zone-3 {
+    padding: 2rem 1rem;
+  }
+
+  /* — Zone 4 — */
+  .zone-4 {
+    display: none;
+  }
+
+}
