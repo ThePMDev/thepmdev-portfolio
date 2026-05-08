@@ -25,11 +25,12 @@
 - [ ] GA4 measurement ID — replace placeholder at deploy config
 - [ ] TOS / Privacy — footer placeholders — legal copy deferred
 - [ ] Wireframe v4.1 PDF — generate and add to docs/current/
+- [ ] Scroll chevron between zones — revisit once Zone 3 is built — assess whether affordance is needed or redundant
+- [ ] PRD FR-05 amendment — thumbnail row placed in Zone 2 below fold, not above fold — document decision in next PRD version
+- [ ] Zone 2 redundancy — thumbnail row previews Zone 3 content without adding depth 
+    — revisit at P1 when artifact tiles link to full document views or individual pages
 
 ## Asset generation — documented decisions
 - Thumbnails generated via PyMuPDF (fitz) — one-time script — not committed to repo
 - generate_thumbnails.py deleted after use — utility scripts do not belong in portfolio repo
 - Re-generate from source PDFs if thumbnails need to be updated
-
-## Misc. design thoughts
-- [ ] Scroll chevron between zones — revisit once Zone 3 is built — assess whether affordance is needed or redundant

@@ -23,7 +23,7 @@ GA4 measurement ID: [add at deploy]
 ## PMD System
 
 Built using the PMD product development process.  
-Phase 7 — Build. Session summary: PMD_Session04_Summary_Phase7_Handoff_v4.1.pdf
+Phase 7 — Build. Session summary: PMD_Session05_Summary_Phase7_Build_v4.2.pdf
 
 ## Open Items
 See `NOTES.md` for flagged items, technical debt, and deferred decisions.
