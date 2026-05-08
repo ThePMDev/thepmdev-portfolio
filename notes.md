@@ -29,6 +29,8 @@
 - [ ] PRD FR-05 amendment — thumbnail row placed in Zone 2 below fold, not above fold — document decision in next PRD version
 - [ ] Zone 2 redundancy — thumbnail row previews Zone 3 content without adding depth 
     — revisit at P1 when artifact tiles link to full document views or individual pages
+- [ ] Footer email — replace hello@thepmdev.com placeholder with live purpose-built contact address before sharing 
+      site with evaluators
 
 ## Asset generation — documented decisions
 - Thumbnails generated via PyMuPDF (fitz) — one-time script — not committed to repo

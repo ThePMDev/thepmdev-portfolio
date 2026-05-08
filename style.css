@@ -323,3 +323,84 @@ cite {
   display: block;
   border-radius: 1px;
 }
+
+/* === ZONE 5 — FOOTER === */
+footer {
+  background: var(--color-black);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px minmax(0, 1fr);
+  max-width: 1000px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.footer-nav span {
+  color: var(--color-gray-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.footer-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-wrap a {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.footer-logo-wrap a:focus {
+  outline: 2px solid var(--color-white);
+  outline-offset: 3px;
+}
+
+.footer-logo-wrap img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.footer-right a {
+  color: var(--color-gray-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: var(--color-text);
+}
+
+.footer-right a:focus {
+  outline: 2px solid var(--color-white);
+  outline-offset: 2px;
+}
+
+.footer-right span {
+  color: var(--color-gray-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}

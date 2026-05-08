@@ -24,6 +24,7 @@ GA4 measurement ID: [add at deploy]
 
 Built using the PMD product development process.  
 Phase 7 — Build. Session summary: PMD_Session05_Summary_Phase7_Build_v4.2.pdf
+All five desktop zones complete. Remaining: Responsive CSS.
 
 ## Open Items
 See `NOTES.md` for flagged items, technical debt, and deferred decisions.
