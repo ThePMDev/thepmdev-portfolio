@@ -38,3 +38,18 @@
 - Thumbnails generated via PyMuPDF (fitz) — one-time script — not committed to repo
 - generate_thumbnails.py deleted after use — utility scripts do not belong in portfolio repo
 - Re-generate from source PDFs if thumbnails need to be updated
+
+## P1 — Site architecture decisions — deferred from P0 close
+
+- [ ] Homepage purpose — project showcase vs. personal brand landing page — decide before P1 build begins
+- [ ] Nav structure — "Projects" with subpages vs. expanded category-level nav links — evaluate at P1 IA phase
+- [ ] About page — reconsider necessity if homepage becomes brand-focused — may remove from nav at P1
+- [ ] Projects nav — evaluate category structure: Apps · Data Analysis · PMD System · Other — with JavaScript expansion for      project lists
+- [ ] Index.html long-term role — profiling most recent project vs. evergreen brand page — decision required 
+      before P1 content build
+
+## Next session opening agenda — in order
+- [ ] 1. Retrospective — Phases 4–7 — P0 complete
+- [ ] 2. 1280px and 1440px spot check
+- [ ] 3. Official P0 sign-off
+- [ ] 4. P1 kickoff — begin with architecture decisions in NOTES.md
