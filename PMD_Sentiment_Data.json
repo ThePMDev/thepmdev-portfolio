@@ -1,5 +1,5 @@
 {
-"schema_version": "1.0",
+"schema_version": "1.1",
 "generated": "2026-05-01",
 "journey": {
 "origin": "P0 · Portfolio Shell",
@@ -11,13 +11,13 @@
 "name": "Portfolio Shell",
 "phase_range": "Phases 1-9",
 "completed": "May 2026",
+"duration": "approx. 8 sessions",
 "classification": "portfolio",
 "confidence_score": 1.0,
-"peak_valley": "neutral",
 "headline": "System exists. First product shipped. The path begins.",
 "worked_well": [
 "PMD system held structure across all 9 phases without breaking down",
-"WCAG 2.2 AA delivered non-negotiably — no deferred accessibility",
+"WCAG 2.2 AA delivered non-negotiably",
 "Session summaries enabled clean context handoff every session"
 ],
 "tricky": [
@@ -25,21 +25,26 @@
 "Responsive CSS took longer than estimated"
 ],
 "proud_of": [
-"Shipped a live URL — thepmdev.com — from a standing start",
-"16 approved artifacts across 9 phases — complete product cycle"
+"Shipped a live URL from a standing start",
+"16 approved artifacts across 9 phases — complete cycle"
 ],
-"exceeded_expectations": [
+"self_assessment": {
+"exceeded": [
 "PMD SKILL.md created — system now self-documenting and portable"
 ],
 "fell_short": [
 "Draft-first protocol not active at P0 — coach led rather than user"
-],
+]
+},
 "showcase_candidate": true,
-"showcase_rationale": "Demonstrates complete 9-phase process and live deployment.",
+"showcase_note": "Demonstrates complete 9-phase process and live deployment.",
 "skills_gained": ["ReportLab PDF generation", "WCAG 2.2 AA", "CI/CD via Netlify"],
 "tools_used": ["HTML/CSS/JS", "ReportLab", "GA4", "Microsoft Clarity", "Netlify"],
 "content_log_items": ["P0 launch build log — X.com pinned post"],
 "next_project_intent": "P1 — TBD after six system additions complete"
 }
+],
+"horizon": [
+{ "id": "P1", "name": "TBD — pending kickoff", "status": "queued" }
 ]
 }
