@@ -1,0 +1,53 @@
+{
+"schema_version": "1.0",
+"generated": "2026-05-01",
+"books": [
+{
+"id": "BOOK-001",
+"title": "[Book Title]",
+"author": "[Author Name]",
+"total_chapters": 12,
+"status": "in-progress",
+"progress_pct": 8,
+"phases_mapped": ["Phase 2", "Phase 3"],
+"acquisition": {
+"type": "owned",
+"status": "in-possession",
+"re_acquire": false
+},
+"date_added": "2026-05-01",
+"date_started": "2026-05-01",
+"date_completed": null,
+"showcase_candidate": true,
+"showcase_note": "[One sentence — why or why not a Readings page candidate]",
+"content_atoms": [],
+"chapters": [
+{
+"chapter_number": 1,
+"chapter_title": "[Chapter Title]",
+"date_read": "2026-05-01",
+"comprehension_summary": "[100-200 word approved summary]",
+"key_concepts": ["[Concept 1]", "[Concept 2]"],
+"application_ideas": [
+{
+"idea": "[Application idea description]",
+"project_ref": "P1",
+"phase_ref": "Phase 3",
+"coach_verdict": "approved"
+}
+],
+"phase_connections": ["Phase 2", "Phase 3"],
+"content_atoms": ["[Tier 1 atom from this chapter]"],
+"recall_schedule": {
+"chapter_log_date": "2026-05-01",
+"current_interval": "R1",
+"next_due_date": "2026-05-04",
+"intervals": [],
+"fully_retained": false
+},
+"coach_session_notes": "[1-3 sentences of coach feedback from the session]"
+}
+]
+}
+]
+}

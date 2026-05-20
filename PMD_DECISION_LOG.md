@@ -364,6 +364,12 @@ Artifact structure, versioning conventions, schema decisions, and PDF production
 
 ---
 
+## Session 10 decisions: 
+- P0001 = Project Pivot Point
+- Up Coast Product Strategy Bootcamp project = Pivot Point
+- Acumen Merit; sequencing decisions, 
+- Engagement framework adoption.
+
 ## VERSION HISTORY
 
 | Version | Key change | Date |
